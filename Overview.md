@@ -9,7 +9,7 @@ flowchart TD
     G -->|Reply| H[Reply]
 ```
 ### Class Diagrame
-
+```mermaid
 classDiagram
     Product --|> Review-Ratting
     Review-Ratting --|> Like
@@ -49,3 +49,5 @@ classDiagram
       +swim()
       +quack()
     }
+
+```
