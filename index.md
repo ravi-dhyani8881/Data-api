@@ -19,3 +19,5 @@ This project give you rest API for the Product reviews and ratting.
 ### Deployment Tools
 * Docker
 * Kubernates
+### Design and diagram
+* [Graph](/diagram.md)
