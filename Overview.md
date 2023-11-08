@@ -1,15 +1,4 @@
 ```mermaid
-flowchart TD
-    A[Product] -->|Post Reviews| B(Reviews)
-    
-    B-->|Like| D[LIKE]
-    B -->|Dislike| E[Dislike]
-    B -->|Mark helpfull| F[Mark helpfull]
-    B -->|Reply| G[Reply]
-    G -->|Reply| H[Reply]
-```
-### Class Diagrame
-```mermaid
 classDiagram
     Product --|> Review-Ratting
     Review-Ratting --|> Like
@@ -51,3 +40,19 @@ classDiagram
     }
 
 ```
+
+
+
+
+
+```mermaid
+flowchart TD
+    A[Product] -->|Post Reviews| B(Reviews)
+    
+    B-->|Like| D[LIKE]
+    B -->|Dislike| E[Dislike]
+    B -->|Mark helpfull| F[Mark helpfull]
+    B -->|Reply| G[Reply]
+    G -->|Reply| H[Reply]
+```
+### Class Diagrame
