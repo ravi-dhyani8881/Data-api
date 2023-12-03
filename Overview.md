@@ -11,6 +11,6 @@ flowchart TD
 ```
 ### Class Diagrame
 
-<img src="Design-Overview.svg" alt="Alt Text" style="fill: red; width: 600px; height: 600px;" />
+<img src="Design-Overview.svg" alt="Alt Text" style="fill: red; width: 1000px; height: 1000px;" />
 
 
