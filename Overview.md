@@ -10,3 +10,7 @@ flowchart TD
     G -->|Reply| H[Reply]
 ```
 ### Class Diagrame
+
+<img src="Design-Overview.svg" alt="Alt Text" width="200" height="200" />
+
+
