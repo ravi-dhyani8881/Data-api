@@ -1,11 +1,12 @@
 ## Welcome to Data Api 
-This is a prototype to automate platform that build all rest api and grapghql implementation by using the schema design.
+This is a beta version help us to build the data API by building using rest and grapghql implementation layer. 
 <img src="Design-Overview.svg" alt="Alt Text" style="fill: red; width: 1200px; height: 1200px;" />
 ## Technology and Language used
 
 ### Language 
 * Java
-* Ruby
+* Mulesoft
+* Python
   
 ### Build tools
 * Maven
@@ -20,6 +21,7 @@ This is a prototype to automate platform that build all rest api and grapghql im
 ### Deployment Tools
 * Docker
 * Kubernates
+* Helm
 
 ### Log managment tools
 * ELK
