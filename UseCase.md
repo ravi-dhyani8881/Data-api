@@ -1,4 +1,5 @@
-    
+### Product Review and Ratting 
+
 ```mermaid
 flowchart TD
     A[Product] -->|Post Reviews| B(Reviews)
@@ -9,8 +10,21 @@ flowchart TD
     B -->|Reply| G[Reply]
     G -->|Reply| H[Reply]
 ```
-### Class Diagrame
-
-<img src="Design-Overview.svg" alt="Alt Text" style="fill: red; width: 1000px; height: 1000px;" />
 
 
+### Film and  category
+
+```mermaid
+flowchart TD
+    
+        A(Film) <--> |Film-ID| B(Film-Actor) 
+    
+    B(Film-Actor) <--> |Actor-ID| c[Actor] 
+     
+    
+
+    D(category) <--> |category-ID| E(Film-category) 
+     
+   A(Film) <--> |Film-ID| E(Film-category) 
+ 
+```
