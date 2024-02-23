@@ -1,5 +1,5 @@
 ## Welcome to Data Api 
-This is a beta version help us to build the data API by building using rest and grapghql implementation layer. 
+Beta version help us to build the data API by building using rest and grapghql implementation layer. 
 <img src="Design-Overview.svg" alt="Alt Text" style="fill: red; width: 1500px; height: 300px;" />
 ## Technology and Language used
 
@@ -7,10 +7,9 @@ This is a beta version help us to build the data API by building using rest and 
 * Java
 * Mulesoft
 * Python
-  
+* Shell
 ### Build tools
 * Maven
-
 ### Technology
 * Spring boot
 * Graph QL
@@ -28,3 +27,7 @@ This is a beta version help us to build the data API by building using rest and 
   
 ### Design and diagram
 * [Graph](/diagram.md)
+
+### Use cases Cover
+* [Use Case](/UseCase.md)
+
