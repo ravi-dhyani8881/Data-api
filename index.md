@@ -25,9 +25,6 @@ Beta version help us to build the data API by building using rest and grapghql i
 ### Log managment tools
 * ELK
   
-### Design and diagram
-* [Graph](/diagram.md)
-
 ### Use cases Cover
 * [Use Case](/UseCase.md)
 
