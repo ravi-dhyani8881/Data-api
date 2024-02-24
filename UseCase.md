@@ -1,9 +1,9 @@
-### Product Review and Ratting 
+### Content Review and Ratting 
 
 
 ```mermaid
 flowchart TD
-    A[Product] -->|Post Reviews| B(Reviews)
+    A[Content] -->|Post Reviews| B(Reviews)
     
     B-->|Like| D[LIKE]
     B -->|Dislike| E[Dislike]
