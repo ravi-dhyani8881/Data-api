@@ -1,5 +1,5 @@
 ## Welcome to Data Api 
-Beta version help us to build the data API by building using rest and grapghql implementation layer. 
+Beta version help us to build the data API by building using rest and graphql implementation layer. 
 <img src="Design-Overview.svg" alt="Alt Text" style="fill: red; width: 1500px; height: 300px;" />
 ## Technology and Language used
 
