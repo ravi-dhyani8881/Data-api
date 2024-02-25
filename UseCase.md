@@ -2,7 +2,8 @@
 
 ## Flow Chart
 
-```mermaid
+``` mermaid
+
 flowchart LR
     A[Content] -->|Post Reviews| B(Reviews)
     B-->|Like| D[LIKE]
@@ -22,7 +23,7 @@ flowchart LR
 
 ## Mind mapping
 
-```mermaid
+``` mermaid
 
 mindmap
 root((Content))
