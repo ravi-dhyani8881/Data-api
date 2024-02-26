@@ -22,7 +22,6 @@ flowchart LR
 ## Mind mapping
 
 ``` mermaid
-
 mindmap
 root((Content))
         Reviews
@@ -37,8 +36,6 @@ root((Content))
                 User
                 Reply
                     User
-
-
 ```
 
 ## Entity Relationship Diagram
@@ -73,20 +70,15 @@ erDiagram
     REPLY {
         ReplyId INT
     }
-
-     
     CONTENT ||--o{ REVIEW : "Add Review"
     USER ||--o{ REVIEW : "Post Reviews"
     REVIEW ||--o{ LIKE : "Like"
     REVIEW ||--o{ DISLIKE : "Dislike"
     REVIEW ||--o{ MARK_HELPFUL : "Mark helpful"
     REVIEW ||--o{ REPLY : "Reply"
-
     LIKE ||--o{ USER : "UserId"
     DISLIKE ||--o{ USER : "UserId"
     MARK_HELPFUL ||--o{ USER : "UserId"
     REPLY ||--o{ USER : "UserId"
-
- 
 ```
 
