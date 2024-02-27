@@ -53,22 +53,36 @@ erDiagram
 
     REVIEW {
         ReviewId INT
+        ContentId INT
+        UserId INT
     }
 
     LIKE {
         LikeId INT
+        ReviewId INT
+        ContentId INT
+        UserId INT
     }
 
     DISLIKE {
         DislikeId INT
+        ReviewId INT
+        ContentId INT
+        UserId INT
     }
 
     MARK_HELPFUL {
         MarkHelpfulId INT
+        ReviewId INT
+        ContentId INT
+        UserId INT
     }
 
     REPLY {
         ReplyId INT
+        ReviewId INT
+        ContentId INT
+        UserId INT
     }
     CONTENT ||--o{ REVIEW : "Add Review"
     USER ||--o{ REVIEW : "Post Reviews"
