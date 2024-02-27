@@ -3,7 +3,7 @@
 
 ## Flow Chart
 
-<div class="mermaid">
+``` mermaid
 flowchart LR
     A[Content] -->|Post Reviews| B(Reviews)
     B-->|Like| D[LIKE]
@@ -17,8 +17,7 @@ flowchart LR
     E-->|UserId| U[User]
     G-->|UserId| U[User]
     H-->|UserId| U[User]
-</div>
-
+```
 
 ## Mind mapping
 
